@@ -4,7 +4,7 @@
 <div style="text-align: left">
     <p>
         <a href="https://code.visualstudio.com" target="_blank"> <img alt="V" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/vscode/vscode-original.svg" height="60" width = "60"></a>
-        <a href="https://www.ansible.com" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1664px-Ansible_logo.svg.png" width="60" alt="Ansible Logo" /></a>
+        <a href="https://www.ansible.com" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1664px-Ansible_logo.svg" width="60" alt="Ansible Logo" /></a>
     </p>
 </div>
 
