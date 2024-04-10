@@ -1,0 +1,364 @@
+Script started on 2024-04-09 20:08:08-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="108" LINES="24"]
+correctamente el nombre o, si incluyó una ruta de acceso,     
+compruebe que dicha ruta es correcta e inténtelo de nuevo.    
+En línea: 1 Carácter: 1
++ ansible-playbook -i inventory.hosts.ini 
+playbooks/install_docker.yml
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ansible-playb  
+   ook:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException        
+ [?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ correctamente el nombre o, si incluyó una ruta de acceso,     
+[?2004lcorrectamente: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ compruebe que dicha ruta es correcta e inténtelo de nuevo.    
+[?2004lcompruebe: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ En línea: 1 Carácter: 1
+[?2004lEn: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ + ansible-playbook -i inventory.hosts.ini 
+[?2004l+: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ playbooks/install_docker.yml
+[?2004lplaybooks/install_docker.yml: line 1: $'---\r': command not found
+playbooks/install_docker.yml: line 2: -: command not found
+playbooks/install_docker.yml: line 3: become:: command not found
+playbooks/install_docker.yml: line 4: $'roles:\r': command not found
+playbooks/install_docker.yml: line 5: -: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ + ~~~~~~~~~~~~~~~~
+[?2004l+: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$     + CategoryInfo          : ObjectNotFound: (ansible-playb  
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$    ook:String) [], CommandNotFoundException
+[?2004lbash: syntax error near unexpected token `)'
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$     + FullyQualifiedErrorId : CommandNotFoundException        
+[?2004l+: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$  cls
+[?2004lCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:[0m
+[0;31mJSON: Expecting value: line 1 column 1 (char 0)[0m
+[0;31m[0m
+[0;31mSyntax Error while loading YAML.[0m
+[0;31m  did not find expected '-' indicator[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 3, column 1, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m- hosts: azure_vm[0m
+[0;31mbecome: yes[0m
+[0;31m^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ AAA[K[K[KA[K]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ A[K]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ A[Kclear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clearansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:[0m
+[0;31mJSON: Expecting value: line 1 column 1 (char 0)[0m
+[0;31m[0m
+[0;31mSyntax Error while loading YAML.[0m
+[0;31m  did not find expected '-' indicator[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 3, column 1, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m- hosts: azure_vm[0m
+[0;31mbecome: yes[0m
+[0;31m^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clearansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:[0m
+[0;31mJSON: Expecting value: line 1 column 1 (char 0)[0m
+[0;31m[0m
+[0;31mSyntax Error while loading YAML.[0m
+[0;31m  did not find expected '-' indicator[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 3, column 1, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m- hosts: azure_vm[0m
+[0;31mbecome: yes[0m
+[0;31m^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clearansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd..
+[?2004lcd..: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: ~[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m~[00m$ cd /mnt/e/noveno/a[KA
+Artesanias/ Auto/       
+]0;gianni@DESKTOP-RKG7TU0: ~[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m~[00m$ cd /mnt/e/noveno/Auto/Ansible/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd ..
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ C[Kcd Ansible/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ chmod 755
+[?2004lchmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd ..
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd ..hmod 755
+[?2004lchmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd .[K[K..
+[?2004lcd..: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: ~[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m~[00m$ cd .[Km[K/mnt/e/noveno/Auto/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ chmod 755 / m[K[Kworksp[Ka[Kpace[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K
+[?2004lchmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ chmod -R 755 /mnt/e/noveno/Auto
+[?2004l
+^[[A^[[A^[[A^[[B^[[B                    
+
+
+
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd /m
+media/ mnt/   
+]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd /mnt/e/noveno/Auto/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cls
+[?2004lCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ ce[Klear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd an[K[KAnsible/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cleard Ansible/[6Plear[2Psd /mnt/e/noveno/Auto/hmod -R 755 /mnt/e/noveno/Auto755 [Kd /mnt/e/noveno/Auto/[K..hmod 755[4Pd ..hmod 755d Ansible/..[K/mnt/e/noveno/Auto/Ansible/[K..ansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cls
+[?2004lCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear[2Psansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chosts.ini playbooks/install_d[1Pocker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/hosts.ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cini playbooks/install_d[1Pocker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cini playbooks/install_d[1Pocker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[Caml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[0;31mERROR! the playbook: playbooks/install_docker.yaml could not be found[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yaml[1Pml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ant/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd..
+[?2004lcd..: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: ~[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m~[00m$ cd /mnt/e/noveno/a[KA
+Artesanias/ Auto/       
+]0;gianni@DESKTOP-RKG7TU0: ~[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m~[00m$ cd /mnt/e/noveno/Auto/Ansible/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd ..
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ C[Kcd Ansible/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ chmod 755
+[?2004lchmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cd ..
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd ..hmod 755
+[?2004lchmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd .[K[K..
+[?2004lcd..: command not found
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: ~[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m~[00m$ cd .[Km[K/mnt/e/noveno/Auto/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ chmod 755 / m[K[Kworksp[Ka[Kpace[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K
+[?2004lchmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ chmod -R 755 /mnt/e/noveno/Auto
+[?2004l
+^[[A^[[A^[[A^[[B^[[B                    
+
+
+
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ 
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd /m
+media/ mnt/   
+]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd /mnt/e/noveno/Auto/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cls
+[?2004lCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ ce[Klear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto[00m$ cd an[K[KAnsible/
+[?2004l[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cleard Ansible/[6Plear[2Psd /mnt/e/noveno/Auto/hmod -R 755 /mnt/e/noveno/Auto755 [Kd /mnt/e/noveno/Auto/[K..hmod 755[4Pd ..hmod 755d Ansible/..[K/mnt/e/noveno/Auto/Ansible/[K..ansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ cls
+[?2004lCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ clear[2Psansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[1;35m[WARNING]: Unable to parse /mnt/e/noveno/Auto/Ansible/inventory.hosts.ini as an inventory source[0m
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does[0m
+[1;35mnot match 'all'[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory.hosts.ini playbooks/install_docker.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chosts.ini playbooks/install_d[1Pocker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/hosts.ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cini playbooks/install_d[1Pocker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cini playbooks/install_d[1Pocker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.ini playbooks/install_docker.yml[A]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[Caml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[0;31mERROR! the playbook: playbooks/install_docker.yaml could not be found[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yaml[1Pml
+[?2004l[1;35m[WARNING]: Ansible is being run in a world writable directory (/mnt/e/noveno/Auto/Ansible), ignoring it as[0m
+[1;35man ansible.cfg source. For more information see[0m
+[1;35mhttps://docs.ansible.com/ansible/devel/reference_appendices/config.html#cfg-in-world-writable-dir[0m
+[0;31mERROR! the role 'docker_install' was not found in /mnt/e/noveno/Auto/Ansible/playbooks/roles:/home/gianni/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/mnt/e/noveno/Auto/Ansible/playbooks[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/mnt/e/noveno/Auto/Ansible/playbooks/install_docker.yml': line 5, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m  roles:[0m
+[0;31m    - docker_install[0m
+[0;31m      ^ here[0m
+[?2004h]0;gianni@DESKTOP-RKG7TU0: /mnt/e/noveno/Auto/Ansible[01;32mgianni@DESKTOP-RKG7TU0[00m:[01;34m/mnt/e/noveno/Auto/Ansible[00m$ ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
+[?2004l[1;35m[WARNING]: Ansible is being run in a wo
