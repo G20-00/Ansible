@@ -78,7 +78,7 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ```
 ## Resultado Configuración
 <p 
-  <img src="Img/Instalar_docker.png" alt="Resultado Configuración" width="600" height="600" />
+  <img src="Img/Instalar_docker.png" alt="Resultado Configuración" width="200" height="200" />
 </p>
 
 ## Configuración De Red Azure
