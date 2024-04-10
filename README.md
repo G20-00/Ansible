@@ -76,14 +76,26 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
   ```
-  ## Resultado Configuracion
-    ![image](Img/Instalar_docker.png)
-  ## Configuracion De Red Azure
-    ![image](Img/Configuracion_de_red.png)
-  ## Vista Maquina Virtual
-    ![image](Img/Maquina_Virtual.png)
-  ## Juego Corriendo
-    ![image](Img/Juego_Corriendo.png)
+## Resultado Configuración
+<p align="center">
+  <img src="Img/Instalar_docker.png" alt="Resultado Configuración" width="200" height="200" />
+</p>
+
+## Configuración De Red Azure
+<p align="center">
+  <img src="Img/Configuracion_de_red.jpg" alt="Configuración De Red Azure" width="200" height="200" />
+</p>
+
+## Vista Maquina Virtual
+<p align="center">
+  <img src="Img/Maquina_Virtual.jpg" alt="Vista Maquina Virtual" width="200" height="200" />
+</p>
+
+## Juego Corriendo
+<p align="center">
+  <img src="Img/Juego_Corriendo.png" alt="Juego Corriendo" width="200" height="200" />
+</p>
+
 ## **_Autor_** ✒️
 
 <div style="text-align: left">
