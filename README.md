@@ -66,13 +66,13 @@ Este archivo de configuración establece el path de los roles en `./roles`, espe
 
 Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, usa los siguientes comandos:
 
-- **Para instalar Docker** en los hosts definidos en tu inventario:
+- **Para instalar Docker en los hosts definidos en tu inventario:**
   
   ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
   ```
 
-- **Para ejecutar un contenedor Docker en tus servidores:
+- **Para ejecutar un contenedor Docker en tus servidores:**
   ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
   ```
@@ -88,12 +88,12 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
 
 ## Vista Maquina Virtual
 <p align="left">
-  <img src="Img/Maquina_Virtual.jpg" alt="Vista Maquina Virtual" width="600" height="600" />
+  <img src="Img/Maquina_Virtual.jpg" alt="Vista Maquina Virtual" width="400" height="300" />
 </p>
 
 ## Juego Corriendo
 <p align="left">
-  <img src="Img/Juego_Corriendo.png" alt="Juego Corriendo" width="600" height="600" />
+  <img src="Img/Juego_Corriendo.png" alt="Juego Corriendo"  width="400" height="300" />
 </p>
 
 ## **_Autor_** ✒️
