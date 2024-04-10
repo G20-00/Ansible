@@ -1,5 +1,5 @@
-# Ansible Configuration for G20-00 Project
-## **_Build With_** 🛠️
+# Ansible Configuracion por Gianni
+## **_Construido con_** 🛠️
 
 <div style="text-align: left">
     <p>
@@ -15,7 +15,7 @@
 
 
 
-## **_Versioned_** 📌
+## **_Versionado_** 📌
 
 <div style="text-align: left">
     <a href="https://github.com/" target="_blank"> <img src="https://img.icons8.com/fluency-systems-filled/344/ffffff/github.png" height="60" width = "60" alt="GitHub"></a>
@@ -71,13 +71,20 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
   ```
-  ## Install Docker
-    ![image](Img/Instalar_docker.png)
+
 - **Para ejecutar un contenedor Docker en tus servidores:
   ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
   ```
-## **_Authors_** ✒️
+  ## Resultado Configuracion
+    ![image](Img/Instalar_docker.png)
+  ## Configuracion De Red Azure
+    ![image](Img/Configuracion_de_red.png)
+  ## Vista Maquina Virtual
+    ![image](Img/Maquina_Virtual.png)
+  ## Juego Corriendo
+    ![image](Img/Juego_Corriendo.png)
+## **_Autor_** ✒️
 
 <div style="text-align: left">
     <a href="https://github.com/G20-00" target="_blank"> <img alt="G20-00" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/70019070?v=4&h=60&w=60&fit=cover&mask=circle"></a>
