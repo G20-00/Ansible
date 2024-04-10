@@ -72,7 +72,7 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
   ```
   ## Install Docker
-    ![image](Img/Instalar_Docker.png)
+    ![image](Img/Instalar_docker.png)
 - **Para ejecutar un contenedor Docker en tus servidores:
   ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
