@@ -77,12 +77,12 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
   ```
 ## Resultado Configuración
-<p 
+<p align="left">
   <img src="Img/Instalar_docker.png" alt="Resultado Configuración" width="200" height="200" />
 </p>
 
 ## Configuración De Red Azure
-<p 
+<p align="left">
   <img src="Img/Configuracion_de_red.jpg" alt="Configuración De Red Azure" width="600" height="600" />
 </p>
 
