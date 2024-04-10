@@ -78,21 +78,21 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ```
 ## Resultado Configuración
 <p align="left">
-  <img src="Img/Instalar_docker.png" alt="Resultado Configuración" width="200" height="200" />
+  <img src="Img/Instalar_docker.png" alt="Resultado Configuración" width="400" height="300" />
 </p>
 
 ## Configuración De Red Azure
 <p align="left">
-  <img src="Img/Configuracion_de_red.jpg" alt="Configuración De Red Azure" width="600" height="600" />
+  <img src="Img/Configuracion_de_red.jpg" alt="Configuración De Red Azure" width="400" height="300" />
 </p>
 
 ## Vista Maquina Virtual
-<p 
+<p align="left">
   <img src="Img/Maquina_Virtual.jpg" alt="Vista Maquina Virtual" width="600" height="600" />
 </p>
 
 ## Juego Corriendo
-<p 
+<p align="left">
   <img src="Img/Juego_Corriendo.png" alt="Juego Corriendo" width="600" height="600" />
 </p>
 
