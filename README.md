@@ -1,4 +1,20 @@
 # Ansible Configuration for G20-00 Project
+## **_Build With_** 🛠️
+
+<div style="text-align: left">
+    <p>
+        <a href="https://code.visualstudio.com" target="_blank"> <img alt="V" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/vscode/vscode-original.svg" height="60" width = "60"></a>
+        <a href="https://www.ansible.com" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1664px-Ansible_logo.svg.png" width="60" alt="Nest Logo" /></a>
+    </p>
+</div>
+
+
+
+## **_Versioned_** 📌
+
+<div style="text-align: left">
+    <a href="https://github.com/" target="_blank"> <img src="https://img.icons8.com/fluency-systems-filled/344/ffffff/github.png" height="60" width = "60" alt="GitHub"></a>
+</div>
 
 ## Descripción
 
@@ -51,6 +67,12 @@ Para desplegar configuraciones con Ansible utilizando los playbooks incluidos, u
   ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
   ```
 - **Para ejecutar un contenedor Docker en tus servidores:
-```bash
+  ```bash
   ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
   ```
+## **_Authors_** ✒️
+
+<div style="text-align: left">
+    <a href="https://github.com/G20-00" target="_blank"> <img alt="G20-00" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/70019070?v=4&h=60&w=60&fit=cover&mask=circle"></a>
+</div>
+---
