@@ -7,7 +7,7 @@
             <img alt="VSCode" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/vscode/vscode-original.svg" height="60" width="60" style="vertical-align: bottom;">
         </a>
         <a href="https://www.ansible.com" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1664px-Ansible_logo.svg.png" width="60" alt="Ansible Logo" style="vertical-align: bottom;">
+            <img src="https://www.ansible.com/images/project-logos/ansible-core.svg" width="60" alt="Ansible Logo" style="vertical-align: bottom;">
         </a>
     </p>
 </div>
